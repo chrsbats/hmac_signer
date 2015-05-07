@@ -43,4 +43,5 @@ Authors
 =======
 
 Created by [Christopher Bates](https://github.com/chrsbats)
+
 Forked from [bazaarvoice/python-hmac-auth](https://github.com/bazaarvoice/python-hmac-auth)
