@@ -2,7 +2,7 @@
 HMAC Signer
 =====
 
-Sign your HTTIP requests with requests and validate it in your flask server.
+Sign your HTTP requests with requests and validate it in your flask server.
 
 This code is presently functional but needs more tests.
 
