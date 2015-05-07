@@ -23,7 +23,7 @@ class HmacAuth(AuthBase):
     SIGNATURE_DELIM = ','
     VERSION_1 = '1'
 
-    def __init__(self,api_key=None,secret_key=None,timestamp_expiry=10):
+    def __init__(self,api_key=None,secret_key=None,timestamp_expiry=15):
         if not secret_key:
             raise TypeError("HMAC signing requires secret key")
         if api_key:
