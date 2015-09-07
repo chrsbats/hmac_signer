@@ -9,10 +9,10 @@ This code is presently functional but needs more tests.
 Requirements
 ============
 
-python 2.7
-Flask 0.10.1
-python-dateutil 2.4.2
-requests 2.7.0
+* python 2.7
+* Flask 0.10.1
+* python-dateutil 2.4.2
+* requests 2.7.0
 
 
 Examples
