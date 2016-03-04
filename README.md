@@ -2,9 +2,18 @@
 HMAC Signer
 =====
 
-Sign your HTTIP requests with requests and validate it in your flask server.
+Sign your HTTP requests with requests and validate it in your flask server.
 
 This code is presently functional but needs more tests.
+
+Requirements
+============
+
+* python 2.7
+* Flask 0.10.1
+* python-dateutil 2.4.2
+* requests 2.7.0
+
 
 Examples
 ========
@@ -37,10 +46,11 @@ On the client side use requests like follows to interact with your REST based mi
 Motivation
 ==========
 
-Getting HMAC signing to work with both flask and requests was a bit more painful than expected.  Leaving this code here for others. 
+Getting HMAC signing to work with both flask and requests was a bit more painful than expected.  Leaving this code here for others.  This code is based on the one provided by python-hmac-auth but follows the same HMAC scheme as used by the ruby api-auth gem.
 
 Authors
 =======
 
 Created by [Christopher Bates](https://github.com/chrsbats)
 
+Forked from [bazaarvoice/python-hmac-auth](https://github.com/bazaarvoice/python-hmac-auth)
