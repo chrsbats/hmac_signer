@@ -42,11 +42,14 @@ class HmacAuth(AuthBase):
     def validate_flask_request(self,request):
         #TODO - Find flask equivalents
         body = request.get_data()
-        if body:
-            h = md5()
-            h.update(str(body))
-            h = h.digest()
-            content_md5 = base64.b64encode(h).strip()
+        if not body:
+            body = ''
+        
+        h = md5()
+        h.update(str(body))
+        h = h.digest()
+        content_md5 = base64.b64encode(h).strip()
+    
         content_type = str(request.headers.get('Content-Type',''))
         path = str(request.path)
         
