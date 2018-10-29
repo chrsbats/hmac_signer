@@ -10,7 +10,7 @@ Requirements
 ============
 
 * python 2.7
-* Flask 0.10.1
+* Flask 0.12.3
 * python-dateutil 2.4.2
 * requests 2.20.0
 
